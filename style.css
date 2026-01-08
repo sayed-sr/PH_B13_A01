@@ -11,30 +11,44 @@
   
 }
 
+header{
+ vertical-align: middle;
+ 
+}
 
+
+.btn{
+    background-color: #469165;
+    padding: 12.5px 16px;
+    color:white;
+    border:none;
+    border-radius:4px;
+}
 
 
 /* =============== Nav  ============ */
 
 
-/* #nav{
+#nav{
 
-border: 1px solid red;
+/* border: 1px solid red; */
+max-height: 92px;
 
-} */
+
+}
 
 #nav .nav-content{
-    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+    
     display : flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     gap:346px;
-
+    
 }
 
 #nav .nav-content .nav-img img{
     padding: 16px 0;
-    margin-left:120px ;
-    /* height: 66px; */
+    /* margin-left:120px ; */
 }
 
 
@@ -44,7 +58,7 @@ border: 1px solid red;
     gap: 32px;
     font-size: 16px;
     font-weight: medium;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     
    
@@ -64,6 +78,168 @@ border: 1px solid red;
     color:white;
     border: none;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: semi-bold;
+    /* margin-right: 100px; */
+}
+
+
+
+
+
+/* =================== Banner ==================*/
+
+#banner{
+    /* border: 1px solid red; */
+    background-image: url(assets/hero-bg.png);
+    height: 674px;
+    max-width: 1600px;
+    margin: 0px;
+    
+}
+
+#banner .banner-content{
+    /* border: 1px solid red; */
+    padding:115px 120px;
+    text-align: center;
+}
+
+
+
+
+#banner .banner-content .banner-one-btn .banner-btn{
+    font-size: 16px;
+    font-weight: medium;
+    color:#469165;
+    border-radius: 1000px;
+    padding: 8px 12px 8px 34px;
+    border: none;
+    margin-bottom: 16px;
+}
+
+
+
+#banner .banner-content .banner-text-h{
+    font-size: 72px;
+    font-weight: Bold;
+    margin-bottom: 16px;
+}
+#banner .banner-content .banner-text-p{
+    font-size: 18px;
+    font-weight: regular;
+    margin-bottom: 32px;
+    line-height: 30px;
+    color: white;
+}
+
+#banner .banner-content .banner-two-btn{
+    display: flex;
+    gap:16px;
+    justify-content: center;
+}
+
+#banner .banner-content .banner-two-btn .banner-onebtn{
+    background-color: #469165;
+    padding: 16px 46px 16px 16px;
+    color:white;
+    border:none;
+    border-radius:4px;
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+
+#banner .banner-content .banner-two-btn .banner-secbtn{
+    background-color: transparent;
+    padding: 16px 16px 16px 46px;
+    color:white;
+    border:1px solid white;
+    border-radius:4px;
+    font-size: 16px;
+    font-weight: semi-bold;
+}
+
+
+
+/* ================== Note ===================== */
+
+#note{
+    /* border:1px solid red; */
+  text-align: center;
+  max-width: 1600px;
+}
+
+
+#note .note-content{
+    /* border:1px solid red; */
+    padding: 0px 120px;
+    
+}
+
+#note .note-text{
+    /* border:1px solid red; */
+   padding-top: 60px;
+}
+
+#note .note-text h6{
+/* border:1px solid red; */
+ font-size: 48px;
+ font-weight: bold;
+ color: #001931;
+ margin-bottom: 16px;
+ 
+}
+
+#note .note-text p{
+/* border:1px solid red; */
+font-size: 16px;
+font-weight: regular;
+color: #627382;
+margin-bottom: 44px;
+}
+
+
+
+#note .note-card-content{
+    display: flex;
+    /* border:1px solid red;  */
+    gap:24px;
+}
+
+#note .note-card-content .note-card{
+    /* border:1px solid red;  */
+    padding-top: 70px;
+    box-shadow: 0px 0px 8px  0px rgba(0, 0, 0, 0.114);
+    text-align: center;
+}
+
+#note .note-card-content .note-card .circle{
+     width: 60px;
+    height: 60px;
+    background-color: #F95555;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#note .note-card-content .note-card h2 {
+    font-size: 24px;
+    font-weight: semi-bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+#note .note-card-content .note-card p {
+    font-size: 16px;
+    font-weight: regular;
+    color: #627382;
+    margin-bottom: 70px;
+    padding:0 23px;
+}
+
+#note .note-card-content .note-card .circle img{
+    width: 24px;      
+    height: 24px;
+    object-fit: contain;
 }
