@@ -18,11 +18,18 @@ header{
 
 
 .btn{
-    background-color: #469165;
-    padding: 12.5px 16px;
+     background-color: #469165;
     color:white;
     border:none;
     border-radius:4px;
+    font-size: 16px;
+    font-weight: semi-bold;
+    height: 52px;
+    width: 251px;
+    display: flex;
+    gap:10px ;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -38,17 +45,17 @@ max-height: 92px;
 }
 
 #nav .nav-content{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     
     display : flex;
-    justify-content: space-evenly;
+    /* justify-content: space-between; */
     gap:346px;
     
 }
 
 #nav .nav-content .nav-img img{
     padding: 16px 0;
-    /* margin-left:120px ; */
+    margin-left:120px ;
 }
 
 
@@ -56,7 +63,7 @@ max-height: 92px;
     /* border: 1px solid red; */
     display: flex;
     gap: 32px;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: medium;
     justify-content: space-around;
     align-items: center;
@@ -80,7 +87,8 @@ max-height: 92px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: semi-bold;
-    /* margin-right: 100px; */
+    width: 164px;
+    height: 44px;
 }
 
 
@@ -106,15 +114,29 @@ max-height: 92px;
 
 
 
+#banner .banner-content .banner-one-btn{
+    
+    display: flex;
+    align-items:center;        
+    justify-content:  center;
+}
+
 
 #banner .banner-content .banner-one-btn .banner-btn{
     font-size: 16px;
     font-weight: medium;
     color:#469165;
     border-radius: 1000px;
-    padding: 8px 12px 8px 34px;
+    /* padding: 8px 12px 8px 34px; */
     border: none;
     margin-bottom: 16px;
+    width: 229px;
+    height: 35px;
+    display: flex;
+    align-items:center;        
+    justify-content:  center;    
+    gap:6px;
+   
 }
 
 
@@ -138,24 +160,22 @@ max-height: 92px;
     justify-content: center;
 }
 
-#banner .banner-content .banner-two-btn .banner-onebtn{
-    background-color: #469165;
-    padding: 16px 46px 16px 16px;
-    color:white;
-    border:none;
-    border-radius:4px;
-    font-size: 16px;
-    font-weight: semi-bold;
-}
+
+
 
 #banner .banner-content .banner-two-btn .banner-secbtn{
     background-color: transparent;
-    padding: 16px 16px 16px 46px;
     color:white;
     border:1px solid white;
     border-radius:4px;
     font-size: 16px;
     font-weight: semi-bold;
+    width: 198px;
+    height: 52px;
+    display: flex;
+    gap:10px ;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -345,17 +365,29 @@ margin-bottom: 44px;
 }
 
 
-
+#early .early-content .early-btn{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    
+}
 
   #early .early-content .early-btn button{
     background-color: #469165;
-    padding: 16px 46px 16px 16px;
     color:white;
     border:none;
     border-radius:4px;
     font-size: 16px;
     font-weight: semi-bold;
-   
+    height: 52px;
+    width: 194px;
+    display: flex;
+    gap:10px ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.132);
 }
 
  #early .early-content .early-btn p{
