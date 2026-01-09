@@ -1,43 +1,6 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
-
----
-
-📅 Deadline For 60 marks: 9th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 50 marks: 10th January, 2026 (11:59 pm ⏱️)
-
-📅 Deadline For 30 marks: Any time after 10th January.
-
-## 🔗 Resources
-
-- **Figma Design:**
+ **Figma Design:**
   [https://www.figma.com/design/oMYH7Ccj6UU8MKZwuGiAXB/KnowledgeVault---L1]
 
-## ❓ Common Questions & Answers
-
-**Can I use different images?**
-
-- Yes, you may use any relevant images.
-
-**Can I change the alignment and design freely?**
-
-- No. You must follow the alignment and layout shown in the Figma design.
-
-**Can I change colors?**
-
-- Yes, as long as the colors are relevant and visually consistent.
-
-**Do I need to make the page pixel-perfect?**
-
-- No. You can use your own margin and padding while following the overall structure from Figma.
-
----
-
-## 📌 Assignment Requirements
-
-### ✅ Main Requirements (50 Marks)
-
-### 🔹 Navbar Section
 
 ![Navbar Section](Sections/Navbar.png)
 
@@ -97,9 +60,6 @@
 
 ---
 
-## 🚀 CHALLENGES (10 Marks)
-
-### 🔸 Early Access Section
 
 ![Early Access Section](Sections/Early%20Access%20Section.png)
 
@@ -119,30 +79,5 @@
 - Minimum **5 GitHub commits**
 - **No Lorem Ipsum** text anywhere on the website
 
----
 
-## 🛠️ Tech Stack
 
-- HTML5
-- CSS3
-- No JavaScript
-- No CSS frameworks or libraries
-
----
-
-## ✅ Submission Checklist
-
-- Figma layout followed correctly
-- Proper alignment and spacing
-- Clean and readable HTML & CSS
-- Live site deployed
-- Public GitHub repository
-
----
-
-## 📂 Submission Format
-
-- **GitHub Repository Link**
-- **Live Website Link (GitHub Pages)**
-
----
